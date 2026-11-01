@@ -1,4 +1,4 @@
-# alfil-co
+# Alfil
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-alfil-co is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://alfil.co/
+Alfil provides a catalog of editorial investigations, electoral data, public contract analysis, and political tools to understand Colombian politics. The platform aggregates information from sources such as Registraduría, SECOP, and Congreso, offering searchable profiles of politicians, contracts, and voting behavior.
+
+**Areas:** politics · Colombia · elections · public procurement · data analysis · intelligence
+
+## Alfil on APIs.io
+
+Everything profiled for Alfil is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alfil-co/](https://apis.io/providers/alfil-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Alfil Búsqueda API](https://apis.io/apis/alfil-co/alfil-co-b-squeda-api/) — The Búsqueda API from Alfil — 1 operation(s) for búsqueda.
+- [Alfil Congreso API](https://apis.io/apis/alfil-co/alfil-co-congreso-api/) — The Congreso API from Alfil — 5 operation(s) for congreso.
+- [Alfil Contratación API](https://apis.io/apis/alfil-co/alfil-co-contrataci-n-api/) — The Contratación API from Alfil — 4 operation(s) for contratación.
+- [Alfil Electoral API](https://apis.io/apis/alfil-co/alfil-co-electoral-api/) — The Electoral API from Alfil — 4 operation(s) for electoral.
+- [Alfil Finanzas API](https://apis.io/apis/alfil-co/alfil-co-finanzas-api/) — The Finanzas API from Alfil — 1 operation(s) for finanzas.
+- [Alfil Geografías API](https://apis.io/apis/alfil-co/alfil-co-geograf-as-api/) — The Geografías API from Alfil — 1 operation(s) for geografías.
+- [Alfil Partidos API](https://apis.io/apis/alfil-co/alfil-co-partidos-api/) — The Partidos API from Alfil — 1 operation(s) for partidos.
+- [Alfil Políticos API](https://apis.io/apis/alfil-co/alfil-co-pol-ticos-api/) — The Políticos API from Alfil — 2 operation(s) for políticos.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Alfil Co Agentic Access](https://apis.io/agentic-access/alfil-co/alfil-co-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Contrato](https://apis.io/schemas/alfil-co/alfil-co-contrato/)
+- [ContratoAdicionesResponse](https://apis.io/schemas/alfil-co/alfil-co-contrato-adiciones-response/)
+- [ElectoralCenso](https://apis.io/schemas/alfil-co/alfil-co-electoral-censo/)
+- [PoliticoPerfil](https://apis.io/schemas/alfil-co/alfil-co-politico-perfil/)
+- [ProcesoContratacion](https://apis.io/schemas/alfil-co/alfil-co-proceso-contratacion/)
+- [VotoDetalle](https://apis.io/schemas/alfil-co/alfil-co-voto-detalle/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Alfil Co Context](https://apis.io/jsonld/alfil-co/alfil-co-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Alfil API Rules](https://apis.io/rules/alfil-co/alfil-co-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alfil Co Authentication](https://apis.io/security/alfil-co/alfil-co-authentication/)
+- [Alfil Co Domain Security](https://apis.io/security/alfil-co/alfil-co-domain-security/)
+- [Alfil Co Vulnerability Disclosure](https://apis.io/security/alfil-co/alfil-co-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Alfil Co Scopes](https://apis.io/scopes/alfil-co/alfil-co-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Alfil Co Plans Pricing](https://apis.io/plans/alfil-co/alfil-co-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Alfil Co Rate Limits](https://apis.io/rate-limits/alfil-co/alfil-co-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://alfil.co/)
+- [Security](https://alfil.co/tos)
+- [Terms of service](https://www.alfil.co/tos)
+
+## API Evangelist rating
+
+**Kin Score 40.6** — developing · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 6.4 |
+| Access clarity | 23.7 |
+
+**Agent readiness 46.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | negotiable (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alfil-co/](https://apis.io/providers/alfil-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alfil: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alfil-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
